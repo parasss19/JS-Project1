@@ -1,0 +1,14 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "Project1",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./main.css -o ./output.css --watch"
+  },
+  "author": "Paras",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
