@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
+    <script src="script.js" defer></script>
     <title>Project1 DrumRoll</title>
+
+    <style>
+      .playing {
+          transform: scale(1.1);
+          border: 4px solid #ffc600;
+          transition: transform 150ms ease-in-out;
+      }
+    </style>
 </head>
+
 <body class="m-0 p-0 box-border bg-no-repeat bg-cover" style="background-image: url(bg-img.jpg);"></body>
 
     <div class="keys flex justify-center items-center h-screen gap-10 px-10">
@@ -48,7 +58,15 @@
     </div>
 
 
-<audio src=""></audio>
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
   
 </body>
 </html>
